@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container my-5 mx-auto">
+    <h1 class="text-muted text-center my-4">Shaunett Weather</h1>
+    <form class="change-location my-4 text-center text-muted">
+        <label for="city">Enter a location</label>
+        <input type="text" name="city" class="form-control p-4">
+    </form>
+
+    <div class="card shadow-lg rounded d-none">
+        <img src="https://via.placeholder.com/400x300" alt="" class="time card img-top">
+    
+         <div class="icon mx-auto text-center bg-light">
+        <img src=" " alt="">
+        </div>
+        <div class="text-center text-uppercase text-muted details">
+            <h5 class="my-3">City Name</h5>
+            <div class="my-3">Weather Information</div>
+            <div class="display-4 my-4">
+                    <span>Temp</span>
+                    <span>&deg;C</span>
+            </div>
+           
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
