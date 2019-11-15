@@ -35,7 +35,7 @@ const updateUI = (data) => {
     }*/
 
     //ternary operator
-    let timeSrc = weather[0].isDayTime ? 'img/day.svg' : 'img/night.svg';
+    let timeSrc = weather[0].IsDayTime ? 'img/day.svg' : 'img/night.svg';
 
     time.setAttribute('src',timeSrc);
 
