@@ -15,10 +15,11 @@ const updateUI = (data) => {
 //console.log(weather);
     details.innerHTML = 
     `<h5 class="my-3">${cityDet.EnglishName}</h5>
+      <h5 class="my-3">${weather[0].LocalObservationDateTime}</h5>
     <div class="my-3">${weather[0].WeatherText}</div>
     <div class="display-4 my-4">
             <span>${weather[0].Temperature.Imperial.Value}</span>
-            <span>&deg;C</span>
+            <span>&deg;F</span>
     </div>`;
 
     //show icon
